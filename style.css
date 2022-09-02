@@ -1,0 +1,149 @@
+@font-face {
+        font-family: MedPoppins;
+        src: url(/fonts/Poppins-Medium.ttf);}
+@font-face {
+        font-family: BoldPoppins;
+        src: url(/fonts/Poppins-Bold.ttf);}
+@font-face {
+    font-family: BlackPoppins;
+    src: url(/fonts/Poppins-Black.ttf);}
+@font-face {
+    font-family: LightPoppin;
+    src: url(/fonts/Poppins-Light.ttf);}
+@font-face {
+    font-family: SemiBoldPoppins;
+    src: url(/fonts/Poppins-SemiBold.ttf);}
+@font-face {
+    font-family: Poppins;
+    src: url(/fonts/Poppins-Regular.ttf);}
+
+/* Fonts
+LightPoppin, MedPoppins, Poppins, SemiBoldPoppins
+BoldPoppins, BlackPoppins
+*/
+
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+* {
+    font-family: Poppins;
+}
+
+body {
+    background-color: #171717;
+}
+
+.frontMS {
+    text-align: center;
+    font-family: MedPoppins;
+    font-weight: 100;
+    font-size: 4.5em;
+    color: white;
+    transition: 0.5s ease all;
+    /* mix-blend-mode: difference; */
+    cursor: pointer;
+    text-align: center;
+}
+
+.frontMS:hover {
+    font-family: BoldPoppins;
+    width: -25%;
+    height: -25%;
+    font-size: 10em;
+    text-indent: 7rem;
+    text-align: center;
+    letter-spacing: 10rem;
+    padding: 0%;
+    font-weight: 900;
+}
+
+section h1 {
+    position: relative;
+    text-align: center;
+    color: #dfe8ea;
+    padding: 40px;
+    margin: 0%;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.centeredContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#squareSVG {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: transparent;
+    stroke: #dfe8ea;
+    stroke-width: 1px;
+    transition: 0.5s ease all;
+}
+
+section {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#msganglogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    transition: 0.5s ease all;
+    opacity: 0;
+}
+
+ul a {
+    list-style: none;
+    color: #dfe8ea;
+    text-decoration: none;
+    margin: 5px 0;
+    transition: 0.5s ease all;
+}
+
+ul li {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    list-style: none;
+    text-align: right;
+    transition: 0.25s ease all;
+}
+
+ul li:hover {
+    padding-right: 15px;
+}
+
+ul {
+    position: absolute;
+    bottom: 2.5%;
+    right: 2.5%;
+}
+
+ul a:hover {
+    color: #ffffff;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>MS GALLERY</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <audio id="player" loop autoplay>
+        <source id="playerTrack" src="/audio/deathboundLoop.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="player2">
+        <source id="playerTrack2" src="/audio/deathboundBreak.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="player3" loop>
+        <source id="playerTrack3" src="/audio/deathboundLoop2.mp3" type="audio/mpeg">
+    </audio>
+
+    <nav>
+        <img src="/img/MSLOGO.png" alt="MS Logo">
+    </nav>
+    <main>
+        <section class="centeredContent" onclick="quiet()">
+            <svg id="squareSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 0h-24v24h24v-24z"/></svg>
+            <img id="msganglogo" src="/img/MSGANGdark.png" alt="MS Logo">
+            <h1 id="textHeader" class="frontMS" class="unselectable">MS</h1>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Completed Projects</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
